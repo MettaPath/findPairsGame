@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Mukta&display=swap" rel="stylesheet">
+  <script defer src="js/main.js"></script>
+  <title>ПАРЫ</title>
+</head>
+
+<body>
+  <h1 class="title">Игра &laquo;НАЙДИ ПАРУ&raquo;</h1>
+  <p class="fild-size___description">
+    Выбирите размер поля
+  </p>
+  <form id="size__select" class="radio__container">
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb1" value="0"> <label for="rb1">4*4</label>
+    </div>
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb2" value="1"> <label for="rb2">6*6</label>
+    </div>
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb3" value="2"> <label for="rb3">8*8</label>
+    </div>
+
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb4" value="3"> <label for="rb4">10*10</label>
+    </div>
+    <button type="submit" class="fild__btn">Выбрать</button>
+  </form>
+
+  <p class="timer__title">Секунд осталось:</p>
+  <div class="timer" id="timer">
+  </div>
+  <p class="description">Нажмите на любую карточку чтобы начать</p>
+  <div class="container"></div>
+  <button class="retry__btn">Играть еще раз</button>
+</body>
+
+</html>
