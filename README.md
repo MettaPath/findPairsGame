@@ -1,6 +1,6 @@
 # Find Pairs Game
-Игра "Найди пару"
+Game "Find Pairs"
 
-Игра на развитие памяти:
+Develop your memory:
 
 https://mettapath.github.io/findPairsGame/
