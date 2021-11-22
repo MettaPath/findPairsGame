@@ -130,13 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (count === 0) {
                 disableAllCards();
             clearInterval(timer);
-            timerBlock.textContent = 'Kонец!';
+            timerBlock.textContent = 'End!';
             setTimeout(() => {
                     retryBtn.style.visibility = 'visible';
                 }, 500);
             }
             if (matchPoints === allMatches) {
-              timerBlock.textContent = 'Победа!'
+              timerBlock.textContent = 'Win!'
               timerBlock.style.color = 'red';
                 return;
             }
