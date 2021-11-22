@@ -1,11 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // контейнер игры
   const container = document.querySelector('.container');
   const timerBlock = document.querySelector('.timer');
   timerBlock.textContent = '60';
-  // описание над игровым полем
   const retryBtn = document.querySelector('.retry__btn');
-  // выбор поля
   const form = document.getElementById('size__select')
   form.addEventListener('submit', () => {
     localStorage.setItem('size', JSON.stringify(form.elements['rb'].value));
