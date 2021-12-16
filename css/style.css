@@ -77,8 +77,7 @@ label {
   transform: translateY(-5px);
 }
 .hidden {
-  visability: hidden;
-/*   color: transparent; */
+  color: transparent;
 }
 
 .card__item {
