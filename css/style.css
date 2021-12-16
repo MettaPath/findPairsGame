@@ -77,7 +77,7 @@ label {
   transform: translateY(-5px);
 }
 .hidden {
-  color: PaleTurquoise;
+  opacity: 0;
 }
 
 .card__item {
@@ -90,7 +90,6 @@ label {
   transition: outline 0.2s ease-in;
   border-radius: 3px;
   background-color: PaleTurquoise;
-  color: white;
   font-size: 40px;
   cursor: pointer;
 }
