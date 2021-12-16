@@ -77,7 +77,7 @@ label {
   transform: translateY(-5px);
 }
 .hidden {
-  color: transparent;
+  color: PaleTurquoise;
 }
 
 .card__item {
